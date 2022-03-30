@@ -53,7 +53,6 @@ let construct_numbers = (account_numbers_raw) => {
     acct_num_groups.shift()
     acct_num_groups.pop()
 
-    // return assembled numbers
     return acct_num_groups.map(num_group => extractDigits(num_group))
 }
 
