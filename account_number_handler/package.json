@@ -1,0 +1,19 @@
+{
+  "name": "account_number_handler",
+  "version": "1.0.0",
+  "description": "This module parses, verifies, and provides useful output about account numbers according to the Bank OCR Kata.",
+  "main": "account_number_handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beechovsky/account_number_handler.git"
+  },
+  "author": "Jeff Bucklew <bucklew.jeff@gmail.com> (https://github.com/beechovsky)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beechovsky/account_number_handler/issues"
+  },
+  "homepage": "https://github.com/beechovsky/account_number_handler#readme"
+}
