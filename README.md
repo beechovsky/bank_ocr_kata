@@ -17,4 +17,4 @@ To use the test program, simply pass it a file like so:
 - I didn't have time to leverage `debug`, `Winston`, or similar. As such, I've left a single console log in the module to facilitate easy validation on your end as I have no knowledge of your testing harness (I wouldn't leave a console log normally).
 - The module assumes it's receiving a file that's already been validated, as the test application here does.
 
-**NOTE:** Opening the test files in Visual Studio Code nukes the spaces on 'empty' lines. Most IDEs (like Intellij) don't munge files like this. The module will only work if the files are formatted exactly as specified in the kata.
+**NOTE:** Opening the test files in Visual Studio Code on my Linux machine converted the lines with only spaces to empty strings, which led me to editing them in nano only. The module will only work if the files are formatted exactly as specified in the kata.
